@@ -1,11 +1,11 @@
 # Portfolio
 
 
-# PROJECT 4 README <!-- omit in toc -->
+# Ollie Portfolio README <!-- omit in toc -->
 
-> The Project Planning section **should be completed** for your project pitch with instructors.
+> 
 >
-> To ensure correct Markdown, copy and paste the raw template code into your project repo README file. Remove ALL template instructions and replace with your project details.
+> 
 
 - [Overview](#overview)
 - [MVP](#mvp)
@@ -25,7 +25,7 @@
 
 ## Overview
 
-_**Portfolio** A overview of all my projects with descriptions.
+** Ollie Portfolio** A overview of all my projects with descriptions. People can also add comments to my about page as to describe my work and work ethic.
 
 
 <br>
@@ -34,13 +34,13 @@ _**Portfolio** A overview of all my projects with descriptions.
 
 > Full functional CRUD, Ruby backend, React.js frontend, 8 rendered components, 3 tables.
 
-_The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+The ** Ollie Portfolio** 
 
 <br>
 
 ### Libraries and Dependencies
 
-> Use this section to list all supporting libraries and dependencies, and their role in the project. Below is an example - this needs to be replaced!
+> 
 
 |   Library    | Description            |
 | :----------: | :--------------------- |
@@ -56,7 +56,7 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 #### Wireframes
 
-> Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
+> 
 
 - Desktop View
 
@@ -75,7 +75,7 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 #### Component File Structure
 
-> Use this section to define your React components and the data architecture of your app. This should be a reflection of how you expect your directory/file tree to look like. 
+> 
 
 ```structure
 
@@ -92,7 +92,7 @@ src
 |__ components/
       |__ Layout
       |__ Navbar
-      |__ EndorsmentForm
+      |__ CommentsForm
       |__ ProjectDelete
       |__ DisplayProjects
 |__ services/
@@ -100,12 +100,12 @@ src
       |__ auth
       |__ users
       |__ projects
-      |__ endorsments
+      |__ Comments
 ```
 
 #### Time Estimates
 
-> Use this section to estimate the time necessary to build out each of the components you've described above.
+> 
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
@@ -117,7 +117,7 @@ src
 | Create CRUD Actions |    H     |     6 hrs      |     TBD hrs     |     TBD     |
 | TOTAL               |          |     6 hrs      |     TBD hrs     |     TBD     |
 
-> _Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evaluate possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe._
+> 
 
 <br>
 
@@ -144,4 +144,4 @@ src
 
 ## Code Issues & Resolutions
 
-> Use this section to list of all major issues encountered and their resolution.
+> Probably going to have trouble with Ruby because im still not confident in the language. I also have to remember React and i have to hone my skills in that. Im going to go lots of Googling
