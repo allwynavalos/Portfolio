@@ -1,0 +1,27 @@
+Home {
+  background-image:url ("../../../me321.JPG") ;
+}
+
+
+.name1 {
+ display: flex;
+ justify-content: center;
+ padding-top: 20%;
+ padding-right: 30%;
+ 
+ 
+}
+.name2 {
+  display: flex;
+  justify-content: center;
+  padding-left: 25%;
+  
+ }
+
+
+
+.desc {
+  color:"#CAABAB";
+  padding-left: 30%;
+  padding-top: 2%;
+}
