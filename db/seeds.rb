@@ -1,4 +1,6 @@
 Admin.destroy_all
+Comment.destroy_all
+Project.destroy_all
 
 
 

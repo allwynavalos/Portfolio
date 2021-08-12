@@ -60,18 +60,19 @@ The ** Ollie Portfolio**
 
 - Desktop View
 
-![Screen Shot 2021-08-10 at 11 20 08 PM](https://user-images.githubusercontent.com/81048858/128964451-161da9aa-631f-4563-8a41-fb7240dcdb97.png)
+<img width="1338" alt="Screen Shot 2021-08-12 at 9 33 05 AM" src="https://user-images.githubusercontent.com/81048858/129205838-64b02cab-bdc7-4e15-a2d6-053f7aefcc68.png">
 
 - Mobile View
 
-![Screen Shot 2021-08-10 at 11 21 00 PM](https://user-images.githubusercontent.com/81048858/128964511-80754318-f7b3-4de3-acb8-030e20ad855f.png)
+<img width="1002" alt="Screen Shot 2021-08-12 at 9 34 15 AM" src="https://user-images.githubusercontent.com/81048858/129206044-e11bf336-3951-4084-b82d-1f4685fa8e1f.png">
 
 
 #### Component Tree
 
 >
 
-[Component Tree Sample] ![Screen Shot 2021-08-10 at 10 54 01 PM](https://user-images.githubusercontent.com/81048858/128962368-6d21655e-e161-4329-bd33-a117373c2b42.png)
+[Component Tree Sample] 
+<img width="928" alt="Screen Shot 2021-08-12 at 9 29 04 AM" src="https://user-images.githubusercontent.com/81048858/129205430-06f8333a-8109-4efc-bf61-e0a9a66d4eef.png">
 
 #### Component File Structure
 
@@ -127,7 +128,7 @@ src
 
 >
 
-[ERD Sample]![Screen Shot 2021-08-10 at 10 00 57 PM](https://user-images.githubusercontent.com/81048858/128958248-32a1dd2e-5e67-4856-8656-fd1c7d7c66b3.png)
+<img width="588" alt="Screen Shot 2021-08-12 at 9 28 44 AM" src="https://user-images.githubusercontent.com/81048858/129205588-9b27993e-85a0-4627-b146-0ca2dcfd1e59.png">
 <br>
 
 ***

@@ -3,6 +3,6 @@ Rails.application.routes.draw do
   resources :admins, only: [:create]
   post "admin/login", to: "admin#login"
   get "/admin/verify", to:"admins#verify"
-  resources :project
+  resources :projects
   resources :comments
 end
