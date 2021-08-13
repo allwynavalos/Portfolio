@@ -4,7 +4,7 @@ Project.destroy_all
 
 
 
-admin1 = Admin.create(name: "Ollie", email: "allwynoa@gmail.com", password_digest: "OllieOniell!")
+admin1 = Admin.create(name: "Ollie", email: "allwynoa@gmail.com", password: "OllieOniell!")
 
 pp "#{Admin.count} users created"
 

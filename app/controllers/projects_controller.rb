@@ -7,7 +7,8 @@ class ProjectsController < ApplicationController
   end
 
   def show
-    render json: @project, include: :projects
+    @project = Project.find(params[:id])
+    render json: @project
   end
 
   def create
@@ -38,7 +39,7 @@ class ProjectsController < ApplicationController
   private
 
   def project_params
-    params.require(:project).permit(:project_title, :about, :skills, :github_url, :deploy_url, :image_url)
+    params.require(:project).permit(:admin_id, :project_title, :about, :skills, :github_url, :deploy_url, :image_url)
   end
 
 

@@ -1,0 +1,57 @@
+.home {
+  background-image: url("../../../src/components/image/me321.jpg");
+  background-position: 50% 25%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+#name {
+  font-size: 200%;
+  color: whitesmoke;
+}
+
+
+.name1 {
+ display: flex;
+ justify-content: center;
+ padding-top: 12%;
+ margin-right: 30%;
+ 
+ 
+}
+.name2 {
+  display: flex;
+  justify-content: center;
+  margin-left: 25%;
+  
+ }
+
+ 
+
+
+
+
+.desc {
+  color:rgba(202, 171, 171, 0.82);
+  padding-left: 38%;
+  font-size: 60%;
+
+}
+
+
+.em-wider {
+  letter-spacing: 1.5em;
+}
+
+.project-button {
+  margin-left: 38%;
+  margin-top: 2%;
+
+}
+
+.about-button {
+  margin-left: 12%;
+}

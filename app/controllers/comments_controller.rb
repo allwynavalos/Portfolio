@@ -1,6 +1,6 @@
 class CommentsController < ApplicationController
   
-    before_action :authorize_request, only: [:index, :create, :update, :destroy]
+    before_action :authorize_request, only: [:update, :destroy]
   
     def index
       comments = Comment.all
