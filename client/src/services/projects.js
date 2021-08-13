@@ -1,5 +1,6 @@
 import api from './apiConfig'
 
+
 export const getProjects = async () => {
   try {
       const response = await api.get('/projects')

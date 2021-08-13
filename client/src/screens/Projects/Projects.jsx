@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import { getProjects } from '../../services/projects'
 import Project from '../../components/Project/Project'
@@ -18,7 +19,7 @@ const Projects = () => {
   return (
     <Layout>
   
-      <div className='projects'>
+      <div className='projects-container'>
         {projects.map((project) => {
           return (
             
@@ -29,12 +30,13 @@ const Projects = () => {
               skills={project.skills}
               github url={project.github_url}
               deploy url={project.deploy_url}
-              image_url={project.image_url}
+              image_url={project.image_url} 
 
               key={project.id}
             />
           )
         })}
+        <button className="create-button"><Link className="create-link" to={`/projectscreate`}>Create</Link></button>
       </div>
       </Layout>
   )

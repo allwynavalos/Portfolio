@@ -8,9 +8,10 @@ const Contacts = () => {
 return (
   <Layout>
   <div id="name">
-      <div>
-      
-      <h2></h2>
+      <div class="email">
+        <h2>Email me at: 
+      <a href="mailto:allwynoa@gmail.com"> allwynoa@gmail.com</a>
+      </h2>
       </div>
     </div>
     </Layout>

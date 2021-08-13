@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useParams, Redirect } from 'react-router-dom'
 import Layout from '../../components/Layout/Layout'
-// import ProjectDetails from ''
-import { getProject, updateProject } from '../../services/projects'
+import { getProject, updateProject, deleteProject } from '../../services/projects'
 
 
 const ProjectEdit = (props) => {
@@ -23,8 +22,9 @@ const ProjectEdit = (props) => {
       const project = await getProject(id)
       setProject(project)
     }
-    fetchProject()
-  }, [id])
+    fetchProject();
+
+  }, [id]);
 
   const handleChange = (event) => {
     const { name, value } = event.target
@@ -45,7 +45,9 @@ const ProjectEdit = (props) => {
   }
 
   return (
-    <Layout>
+    <Layout admin ={props.admin} screen={props.screen}>
+      
+    
       <div className='project-edit'>
         <div className='image-container'>
           <img
@@ -57,9 +59,9 @@ const ProjectEdit = (props) => {
         <form className='edit-form' onSubmit={handleSubmit}>
           <input
             className='input-name'
-            placeholder='Name'
-            value={project.title}
-            name='title'
+            placeholder='title'
+            value={project.project_title}
+            name='project_title'
             required
             autoFocus
             onChange={handleChange}
@@ -68,8 +70,10 @@ const ProjectEdit = (props) => {
             <input
               className='edit-image-url'
               placeholder='Image URL'
-              value={project.imgURL}
+              value={project.image_url}
+              alt={project.project_title}
               name='imageURL'
+              width="300"
               required
               onChange={handleChange}
             />
@@ -87,7 +91,7 @@ const ProjectEdit = (props) => {
           <input
             className='input-skills'
             placeholder='Skills'
-            value={project.about}
+            value={project.skills}
             name='skills'
             required
             onChange={handleChange}
@@ -110,6 +114,9 @@ const ProjectEdit = (props) => {
           />
           <button type='submit' className='save-button'>
             Save
+          </button>
+          <button type='submit' onClick={() => deleteProject(project.id)} className='delete-button'>
+            Delete
           </button>
         </form>
       </div>

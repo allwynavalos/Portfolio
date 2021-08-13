@@ -1,6 +1,6 @@
 import { Route } from "react-router-dom"
-import Home from '../screens/Home'
-import Projects from '../screens/Projects'
+import Home from '../screens/Home/Home'
+import Projects from '../screens/Projects/Projects'
 import CreateProject from '../screens/CreateProject'
 import EditProject from "../screens/EditProject"
 import ProjectDetail from "../screens/ProjectDetail"

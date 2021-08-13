@@ -26,7 +26,7 @@ const ProjectDetail = (props) => {
     return (
         <Layout>
             <div className="project-detail">
-                <img className="project-detail-image" src={project.image_url} alt={project.name} />
+                <img className="project-detail-image" src={project.image_url} alt={project.project_title} />
                 <div className="detail">
                     <div className="name">{project.project_title}</div>
                     <div className="about">{project.about}</div>
@@ -38,7 +38,7 @@ const ProjectDetail = (props) => {
               Deployed Site
             </a>{" "}
                     <div className="image URL">{project.image_url}</div>
-                    <button className="edit-button"><Link className="edit-link" to={`/projects/${project._id}/edit`}>Edit</Link></button>
+                    <button className="edit-button"><Link className="edit-link" to={`/projects/${project.id}/edit`}>Edit</Link></button>
                 </div>
             </div>
         </Layout>
