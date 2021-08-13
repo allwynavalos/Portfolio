@@ -1,21 +1,19 @@
-import { useEffect } from 'react'
-import {logout} from '../../services/admin'
-import { useHistory } from 'react-router-dom'
 
-const SignOut = (props) => {
-  const { setAdmin } = props
-  const history = useHistory()
+import { useEffect, useState } from "react";
+import { Redirect } from "react-router-dom";
+import { logout } from "../../services/admin";
 
+const LogOut = () => {
+  const [signedOut, setSignedOut] = useState(false);
   useEffect(() => {
-    const signOutAdmin = async () => {
-      await SignOut()
-      setAdmin(null)
-      history.push('/')
-    }
-    signOutAdmin()
-  }, [history, setAdmin])
+    const signOutUser = async () => {
+      const signOutBool = await logout();
+      setSignedOut(signOutBool);
+    };
+    signOutUser();
+  }, []);
+  return signedOut ? <Redirect to="signin" /> : <h2>Signed out...</h2>;
+  
+};
 
-  return ''
-}
-
-export default SignOut
+export default LogOut;

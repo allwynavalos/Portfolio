@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Layout from '../../components/Layout/Layout'
 import {createProject} from '../../services/projects'
+import{Redirect} from 'react-router-dom'
 import {useHistory} from 'react-router-dom'
 
 const CreateProject = (props) => {
@@ -16,6 +17,8 @@ const CreateProject = (props) => {
   })
 
   const history = useHistory()
+
+  const [isNew, setIsNew] = useState(false)
 
   const handleChange = (e) => {
     const {value} = e.target
@@ -33,7 +36,10 @@ const CreateProject = (props) => {
   const handleSubmit = async (e) => {
     e.preventDefault()
     const newProject = await createProject(formData)
-    history.push('/projects')
+    history.push('/projects');
+  }
+  if(isNew) {
+    return<Redirect to={'/projects'} />;
   }
 
 
