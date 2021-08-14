@@ -6,18 +6,18 @@ const Home = () => {
 
 
   return (
+      <div className="home">
     <Layout>
-      <div class="home">
-      <div id="name">
-        <div class='name1'>
+        <div id="name">
+          <div class='name1'>
         
-          <h1 class="em-wider">O</h1>
-          <h1 class="em-wider">L</h1>
-          <h1 class="em-wider">L</h1>
-          <h1 class="em-wider">I</h1>
-          <h1 class="em-wider">E</h1>
+            <h1 class="em-wider">O</h1>
+            <h1 class="em-wider">L</h1>
+            <h1 class="em-wider">L</h1>
+           <h1 class="em-wider">I</h1>
+            <h1 class="em-wider">E</h1>
      
-        </div>
+          </div>
         <div class='name2'>
           <h1 class="em-wider">A</h1>
           <h1 class="em-wider">V</h1>
@@ -31,9 +31,9 @@ const Home = () => {
         <Link  to={'/projects'}><button className="project-button"> Projects</button> </Link>
         <Link  to={'/about'}><button className="about-button">About </button> </Link>
         
-    </div>
-    </div>
+      </div>
     </Layout>
+    </div>
     
     
     
