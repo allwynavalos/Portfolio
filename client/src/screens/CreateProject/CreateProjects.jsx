@@ -3,6 +3,7 @@ import Layout from '../../components/Layout/Layout'
 import {createProject} from '../../services/projects'
 import{Redirect} from 'react-router-dom'
 import {useHistory} from 'react-router-dom'
+import './CreateProject.css'
 
 const CreateProject = (props) => {
 

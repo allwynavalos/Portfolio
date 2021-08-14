@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import SignOut from '../../screens/SignOut/SignOut'
 import SignIn from "../../screens/SignIn/SignIn";
 import { verify } from "../../services/admin";
+import './Footer.css'
 
 const Footer = (props) => {
   const [adminVerified, setAdminVerified] = useState(null);
@@ -17,7 +18,7 @@ const Footer = (props) => {
 
   return (
     <div className="Footer">
-      <Link className="link" to="/signin">
+      <Link className="signin" to="/signin">
         Sign In
       </Link>
       {adminVerified ? (
