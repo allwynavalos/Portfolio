@@ -1,3 +1,14 @@
 .email {
-  font-size: 100px;
+  font-size: 20rem;
+}
+.name{
+  color: black;
+  margin-left: 20rem;
+  text-decoration: none;
+}
+
+a:link {
+  margin-left: 30rem;
+  color: black;
+  text-decoration: none;
 }

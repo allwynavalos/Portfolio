@@ -18,24 +18,36 @@ const Projects = () => {
 
   return (
     <Layout>
+      <h2>
+        <ul>
+          <li>P</li>
+          <li>R</li>
+          <li>O</li>
+          <li>J</li>
+          <li>E</li>
+          <li>C</li>
+          <li>T</li>
+          <li>S</li>
+        </ul>
+      </h2>
   
       <div className='projects-container'>
         {projects.map((project) => {
           return (
             
             <Project
-              id={project.id}
-              title={project.project_title}
-              about={project.about}
-              skills={project.skills}
-              github url={project.github_url}
-              deploy url={project.deploy_url}
-              image_url={project.image_url} 
-
-              key={project.id}
+            id={project.id}
+            title={project.project_title}
+            about={project.about}
+            skills={project.skills}
+            github url={project.github_url}
+            deploy url={project.deploy_url}
+            image_url={project.image_url} 
+            
+            key={project.id}
             />
-          )
-        })}
+            )
+          })}
       </div>
         <button className="create-button"><Link className="create-link" to={`/projectscreate`}>Create</Link></button>
       </Layout>

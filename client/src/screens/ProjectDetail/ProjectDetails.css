@@ -3,7 +3,8 @@
 }
 
 .image-container {
-  margin-top: 60px;
+  margin-left: 10rem;
+  margin-top: 12rem;
   flex:1;
 
 }
@@ -13,17 +14,21 @@
 }
 
 .details {
-  margin-left: 50px;
-  margin-top: 60px;
+  margin-left: 10rem;
+  margin-top: 10rem;
+  margin-right: 15rem;
 }
 
 .edit-button {
   margin-left: 66%;
   margin-top: 5%;
-  
 }
+
 
 #title, #about, #skills, #github, #deploy, #image-url{
   margin-top: 10px;
 }
 
+#github {
+  
+}

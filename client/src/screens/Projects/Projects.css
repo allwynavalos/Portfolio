@@ -1,4 +1,27 @@
 .projects-container {
+  overflow: auto;
   display: flex;
-  flex-direction: row;
+  grid-gap: 10rem 10rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 3rem;
+  max-width: 1400px;
+  
+}
+
+.create-button {
+  margin-left: 40rem;
+  margin-top: 10rem;
+  background-color: pink;
+  border: 0;
+  
+}
+
+.create-link {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+
 }
