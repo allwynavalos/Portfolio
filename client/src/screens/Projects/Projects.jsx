@@ -48,8 +48,8 @@ const Projects = () => {
             />
             )
           })}
+          <button className="create-button"><Link className="create-link" to={`/projectscreate`}>Create</Link></button>
       </div>
-        <button className="create-button"><Link className="create-link" to={`/projectscreate`}>Create</Link></button>
       </Layout>
   )
 }

@@ -19,8 +19,8 @@
  display: flex;
  justify-content: center;
  padding-top: 16rem;
- margin-right: 30rem;
- margin-left: 15rem;
+ margin-right: 40rem;
+ margin-left: 20rem;
  
  
 }
@@ -28,8 +28,8 @@
   display: flex;
   justify-content: center;
   padding-top: 4rem;
-  margin-right: 35rem;
-  margin-left: 28%;
+  margin-right: 40rem;
+  margin-left: 25%;
   
  }
 
@@ -40,8 +40,9 @@
 
 .desc {
   color:rgba(202, 171, 171, 0.82);
-  padding-left: 38%;
+  padding-left: 42%;
   font-size: 1rem;
+  padding-top: 5rem;
 
 }
 
@@ -51,7 +52,7 @@
 }
 
 .project-button {
-  margin-left: 33rem;
+  margin-left: 49rem;
   margin-top: 2%;
   background: rgba(202, 171, 171, 0.82);
   border: none;
@@ -71,4 +72,54 @@
 
 .about-button:hover {
   transform: scale(1.5)
+}
+
+@media screen and (max-width:850px) {
+  .name1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 16rem;
+    margin-right: 30rem;
+    margin-left: 13rem;
+    
+    
+   }
+   .name2 {
+     display: flex;
+     justify-content: center;
+     padding-top: 1rem;
+     margin-right: 35rem;
+     margin-left: 13rem;
+     
+    }
+    .desc {
+      color:rgba(202, 171, 171, 0.82);
+      padding-left: 4rem;
+      font-size: 1rem;
+    
+    }
+
+    .project-button {
+      margin-left: 10rem;
+      margin-top: 2%;
+      background: rgba(202, 171, 171, 0.82);
+      border: none;
+      transition: transform .2s;
+    
+    }
+    .project-button:hover {
+      transform: scale(1.5)
+    }
+    
+    .about-button {
+      margin-left: 10.5rem;
+      margin-top: 1rem;
+      background: rgba(202, 171, 171, 0.82);
+      border: none;
+      transition: transform .2s;
+    }
+    
+    .about-button:hover {
+      transform: scale(1.5)
+    }
 }
