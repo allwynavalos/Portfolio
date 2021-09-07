@@ -18,7 +18,7 @@ const Projects = () => {
 
   return (
     <Layout>
-      <h2>
+
         <ul>
           <li>P</li>
           <li>R</li>
@@ -29,7 +29,7 @@ const Projects = () => {
           <li>T</li>
           <li>S</li>
         </ul>
-      </h2>
+      
   
       <div className='projects-container'>
         {projects.map((project) => {
