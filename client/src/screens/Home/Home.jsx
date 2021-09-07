@@ -28,8 +28,10 @@ const Home = () => {
         </div>
           
         <h2 class="desc"> I create value through experience</h2>
+        <div className ="home-link">
         <Link  to={'/projects'}><button className="project-button"> Projects</button> </Link>
         <Link  to={'/about'}><button className="about-button">About </button> </Link>
+        </div>
         
       </div>
     </Layout>
