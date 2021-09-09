@@ -31,18 +31,21 @@ const ProjectDetail = (props) => {
           </div>
             <div className="details">
              
-                
                     <div id="title">{project.project_title}</div>
+                    <h3 className = 'header'>About</h3>
                     <div id="about">{project.about}</div>
+                    <h3 className = 'header'>Skills</h3>
                     <div id="skills">{project.skills}</div>
+                    <h3 className = 'header'>Image URL</h3>
                     <div id="image-url">{project.image_url}</div>
+                    <h3 className = 'header'>Github / Site</h3>
                     <a id='github' href={project.github_url} target="_blank" rel="noreferrer"> Github</a>{" "}
                     <a id='deploy' href={project.deploy_url} target="_blank" rel="noreferrer">Deployed</a>{" "}
                 
             </div>
           </div>
           <div className='edit-button'>
-                 <Link  to={`/projects/${project.id}/edit`}><button> Edit</button> </Link>
+                 <button className = 'edit-button'><Link className='edit-link' to={`/projects/${project.id}/edit`}>Edit</Link></button>
                  </div>
         </Layout>
     )
