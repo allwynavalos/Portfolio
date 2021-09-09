@@ -4,13 +4,15 @@
 
 .image-container {
   margin-left: 10rem;
-  margin-top: 12rem;
+  margin-top: 23rem;
   flex:1;
 
 }
 #title {
-  margin-left: 150px;
-  margin-bottom: 20px;
+  margin-left: 15rem;
+  margin-bottom: 5rem;
+  font-size: 2.5rem;
+  
 }
 
 .details {
@@ -20,8 +22,18 @@
 }
 
 .edit-button {
-  margin-left: 66%;
-  margin-top: 5%;
+  margin-left: 35rem;
+  margin-right: 85rem;
+  margin-top: 2rem;
+  background-color: pink;
+  border: 0;
+  font-size: 1.3rem;
+  
+}
+
+.edit-link {
+  text-decoration: none;
+  color: black;
 }
 
 
@@ -29,6 +41,6 @@
   margin-top: 10px;
 }
 
-#github {
-  
+.header {
+  text-decoration:underline
 }
