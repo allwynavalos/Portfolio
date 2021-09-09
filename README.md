@@ -60,11 +60,11 @@ The ** Ollie Portfolio**
 
 - Desktop View
 
-<img width="1338" alt="Screen Shot 2021-08-12 at 9 33 05 AM" src="https://user-images.githubusercontent.com/81048858/129205838-64b02cab-bdc7-4e15-a2d6-053f7aefcc68.png">
+![Screen Shot 2021-09-09 at 1 04 29 PM](https://user-images.githubusercontent.com/81048858/132730773-8793cec8-a976-44d8-bc9c-256c1a1b87a7.png)
 
 - Mobile View
 
-<img width="1002" alt="Screen Shot 2021-08-12 at 9 34 15 AM" src="https://user-images.githubusercontent.com/81048858/129206044-e11bf336-3951-4084-b82d-1f4685fa8e1f.png">
+![Screen Shot 2021-09-09 at 1 09 17 PM](https://user-images.githubusercontent.com/81048858/132731277-cb74bfb1-a05b-4fe6-9884-9d7794537034.png)
 
 
 #### Component Tree
