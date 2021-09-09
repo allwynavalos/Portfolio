@@ -19,7 +19,7 @@ const Projects = () => {
   return (
     <Layout>
 
-        <ul>
+        {/* <ul>
           <li>P</li>
           <li>R</li>
           <li>O</li>
@@ -28,7 +28,18 @@ const Projects = () => {
           <li>C</li>
           <li>T</li>
           <li>S</li>
-        </ul>
+        </ul> */}
+  <div className ='page-container'>
+    <div className = 'project-title'>
+        <h2>P</h2>
+        <h2>R</h2>
+        <h2>O</h2>
+        <h2>J</h2>
+        <h2>E</h2>
+        <h2>C</h2>
+        <h2>T</h2>
+        <h2>S</h2>
+    </div>
       
   
       <div className='projects-container'>
@@ -48,8 +59,9 @@ const Projects = () => {
             />
             )
           })}
-          <button className="create-button"><Link className="create-link" to={`/projectscreate`}>Create</Link></button>
       </div>
+   </div>
+<button className="create-button"><Link className="create-link" to={`/projectscreate`}>Create</Link></button>
       </Layout>
   )
 }
