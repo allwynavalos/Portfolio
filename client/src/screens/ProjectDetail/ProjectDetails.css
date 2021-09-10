@@ -44,3 +44,15 @@
 .header {
   text-decoration:underline
 }
+
+@media screen and (max-width:375px) {
+  .project-container-detail {
+    display: flex;
+  }
+
+  .image-container {
+    margin-left: 10rem;
+    margin-top: 23rem;
+    flex:1;
+}
+}

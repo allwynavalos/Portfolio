@@ -43,3 +43,26 @@
   max-width: 1600px;
 }
 
+@media screen and (max-width:375px) {
+
+  .create-button {
+  
+    margin-top: 2rem;
+    background-color: pink;
+    border: 0;
+    font-size: 1.5rem;
+    
+  }
+  
+  .create-link {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.project-title {
+  margin-left: 100rem;
+
+}
+}
