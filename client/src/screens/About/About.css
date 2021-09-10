@@ -2,20 +2,24 @@
   background-image: url("../../../src/components/image/profile.jpg");
 } */
 
+
+.about-header {
+  margin-left: 2rem;
+}
 .about-dev {
   
   margin-top: 1rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 20rem;
+  margin-right: 28rem;
   border: solid pink;
   background-color: pink;
   border-width:2rem
 }
 
 .about-me {
-  margin-top: 10rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-top: 5rem;
+  margin-left: 20rem;
+  margin-right: 28rem;
   border: solid whitesmoke;
   background-color:whitesmoke;
   border-width:3rem;

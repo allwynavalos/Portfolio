@@ -25,7 +25,7 @@ const ProjectDetail = (props) => {
 
     return (
         <Layout>
-          <div class='project-container'> 
+          <div class='project-container-detail'> 
           <div class='image-container'>
                 <img className="project-detail-image" src={project.image_url} width= "400"alt={project.project_title} />
           </div>

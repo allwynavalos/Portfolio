@@ -8,26 +8,33 @@ const About = () => {
   return (
     
     <Layout>
-      <div>
-        <ul>
-          <li>A</li>
-          <li>B</li>
-          <li>O</li>
-          <li>U</li>
-          <li>T</li>
-        </ul>
+      <div className='page-container-about'>
+      <div className='about-header'>
+          <h3>A</h3>
+          <h3>B</h3>
+          <h3>O</h3>
+          <h3>U</h3>
+          <h3>T</h3>
+        
       </div>
   <div className="about-dev">
-      <h2> My name is Ollie. I am a fullstack software engineer that aspires to bring value through experience. 
-        I love the minimalistic lifestyle and I transfer this over to my designs.    
+      <h2>I am a software engineer with many years of expertise in fashion
+ and computer hardware. 
+My approach blends a desire for learning, simplicity, research, and 
+innovation to solve problems and help others. I love adventures, 
+being curious, and going above and beyond in anything I do;
+ this mindset goes everywhere with me.  
         </h2>
   </div>
  
   <div className='about-me'>
       <h2>
-      More about me... I love the simple life. I love walks and adventure outside and getting lost to find random cool stuff. 
-      I love and have a passion for music. I 
+      The future is always unknown, 
+but I’m open to new experiences and possibilities.
+ I am a leader at heart but can adapt to leadership mindset 
+when needed and appropriate.
       </h2>
+    </div>
     </div>
     </Layout>
     
