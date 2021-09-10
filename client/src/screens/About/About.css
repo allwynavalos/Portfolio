@@ -32,9 +32,17 @@ display: flex;
   font-size: 3rem;
   text-decoration : none;
   padding-right: 20rem;
-  
-  
-  
-  
-  
+
+}
+
+@media screen and (max-width:897px) {
+  .about-dev{
+
+    padding-left: 40rem;
+  }
+
+
+
+
+
 }
