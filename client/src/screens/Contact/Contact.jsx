@@ -7,23 +7,24 @@ const Contacts = () => {
 
 return (
   <Layout>
+  <div className ='page-container-contact'>
     <div>
-      <ul>
-        <li>C</li>
-        <li>O</li>
-        <li>N</li>
-        <li>T</li>
-        <li>A</li>
-        <li>C</li>
-        <li>T</li>
-      </ul>
-  <div className="name">
+        <h3>C</h3>
+        <h3>O</h3>
+        <h3>N</h3>
+        <h3>T</h3>
+        <h3>A</h3>
+        <h3>C</h3>
+        <h3>T</h3>
+      
+    <div className="name">
      
-        <h2>Email me at: 
+        <h2 className='email'>Email me at: 
       <a href="mailto:allwynoa@gmail.com"> allwynoa@gmail.com</a>
       </h2>
-  </div>
     </div>
+    </div>
+  </div>
     
     </Layout>
     
