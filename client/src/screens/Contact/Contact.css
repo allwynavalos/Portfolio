@@ -1,9 +1,14 @@
+.page-container-contact{
+  display: flex;
+}
+
 .email {
   font-size: 20rem;
+  margin-left: 20rem;
 }
 .name{
   color: black;
-  margin-left: 20rem;
+  margin-left: 100rem;
   text-decoration: none;
 }
 
