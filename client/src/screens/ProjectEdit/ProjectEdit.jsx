@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { useParams, Redirect } from 'react-router-dom'
 import Layout from '../../components/Layout/Layout'
 import { getProject, updateProject, deleteProject } from '../../services/projects'
+import './ProjectEdit.css'
 
 
 const ProjectEdit = (props) => {
@@ -46,13 +47,19 @@ const ProjectEdit = (props) => {
 
   return (
     <Layout admin ={props.admin} screen={props.screen}>
-      
+  <div className = 'edit-page-container'>
+   <div className = 'edit-title'>
+        <h2>E</h2>
+        <h2>D</h2>
+        <h2>I</h2>
+        <h2>T</h2>
+    </div>
     
       <div className='project-edit'>
         <div className='image-container'>
           <img
             className='edit-project-image'
-            src={project.img_URL}
+            src={project.img_url}
             alt={project._title}
           />
         </div>
@@ -120,6 +127,7 @@ const ProjectEdit = (props) => {
           </button>
         </form>
       </div>
+  </div>
     </Layout>
   )
 }

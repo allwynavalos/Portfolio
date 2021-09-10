@@ -45,9 +45,19 @@ const CreateProject = (props) => {
 
   return (
     <Layout>
+    <div className ='project-container'>
     <div>
-      <h1>Add Project</h1>
-      <form onSubmit={handleSubmit}>
+      <h3>A</h3>
+      <h3>D</h3>
+      <h3>D</h3>
+      <h3>P</h3>
+      <h3>R</h3>
+      <h3>O</h3>
+      <h3>J</h3>
+      <h3>E</h3>
+      <h3>C</h3>
+      <h3>T</h3>
+      <form className='form' onSubmit={handleSubmit}>
         <label htmlFor="Project_title">Project Title:</label>
         <input
           onChange={handleChange}
@@ -105,6 +115,7 @@ const CreateProject = (props) => {
         <button type="submit">Submit</button>
       </form>
     </div>
+  </div>
   </Layout>
   )
 }
