@@ -1,0 +1,62 @@
+.edit-page-container {
+  display: flex;
+  
+}
+
+.edit-title {
+  margin-left: 2rem;
+}
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  margin-right:40rem ;
+  margin-left: 28rem;
+  
+ 
+}
+
+
+
+.save-button {
+  margin-top: 2rem;
+  margin-left:20rem ;
+  margin-right:20rem ;
+  background-color: pink;
+  border: 0;
+  font-size: 1rem;
+}
+
+.delete-button {
+  margin-top: 1.2rem;
+  margin-left:20rem ;
+  margin-right:20rem ;
+
+ 
+  background-color: pink;
+  border: 0;
+  font-size: 1rem;
+}
+
+.input-name {
+  margin-bottom: 1.5rem;
+}
+
+.edit-image-url {
+  margin-bottom: 1.5rem;
+}
+
+.about {
+  margin-bottom: 1.5rem;
+}
+
+.input-skills {
+  margin-bottom: 1.5rem;
+}
+
+.input-github {
+  margin-bottom: 1.5rem;
+}
+
+.edit-page-container {
+
+}

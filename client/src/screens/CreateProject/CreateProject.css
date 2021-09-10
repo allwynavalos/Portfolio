@@ -1,12 +1,30 @@
 form{
-  margin-left: 28%;
+  margin-left: 46rem;
+ margin-top: 6rem;
  
 }
 
 h1 {
-  margin-left: 35%;
+  margin-top: 6rem;
+  margin-left: 48rem;
 }
 
 label {
   display: block;
+  
 }
+
+input {
+  padding-left: 5rem;
+  color: black !important;
+}
+
+.project-container {
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 3rem;
+  max-width: 1000px;
+}
+
+
+
