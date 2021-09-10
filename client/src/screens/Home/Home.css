@@ -80,22 +80,14 @@
   transform: scale(1.5)
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:375px) {
   .name1 {
-    display: flex;
-    justify-content: center;
-    padding-top: 16rem;
-    margin-right: 30rem;
-    margin-left: 13rem;
+    
     
     
    }
    .name2 {
-     display: flex;
-     justify-content: center;
-     padding-top: 1rem;
-     margin-right: 35rem;
-     margin-left: 13rem;
+     margin-left: 30rem;
      
     }
     .desc {
@@ -118,8 +110,8 @@
     }
     
     .about-button {
-      margin-left: 10.5rem;
-      margin-top: 1rem;
+      margin-left: -3.5rem;
+      margin-top: 2rem;
       background: rgba(202, 171, 171, 0.82);
       border: none;
       transition: transform .2s;
