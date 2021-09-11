@@ -71,6 +71,7 @@
 
 .about-button {
   margin-left: 12rem;
+  margin-top: 2%;
   background: rgba(202, 171, 171, 0.82);
   border: none;
   transition: transform .2s;
